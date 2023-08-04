@@ -7,6 +7,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>jspservlet-app-stringmania Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <project>
+    <distributionManagement>
+        <repository>
+            <id>your-repository-id</id>
+            <name>Repository Name</name>
+            <url>https://your.repository.url</url>
+        </repository>
+    </distributionManagement>
+</project>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
