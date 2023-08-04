@@ -7,16 +7,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>jspservlet-app-stringmania Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <project>
-    <distributionManagement>
-        <repository>
-            <id>jspservlet-app-stringmania</id>
-            <name>jspservlet-app-stringmania Maven Webapp</name>
-            <url>https://your.repository.url</url>
-        </repository>
-    </distributionManagement>
-</project>
-
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
